@@ -1,5 +1,5 @@
 # grpc-ur
-## Steps:
+## Steps
 - Create the Service Definition (including remote methods and message types)
 - Generate server (service) skeleton and client stub code
 - Implement service implementation
