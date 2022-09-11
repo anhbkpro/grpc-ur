@@ -1,4 +1,9 @@
 # grpc-ur
+## Steps:
+- Create the Service Definition (including remote methods and message types)
+- Generate server (service) skeleton and client stub code
+- Implement service implementation
+- Create gRPC server and expose those services
 ## Install protoc and protoc-gen-go plugin
 - Install the gRPC library:
 ```
