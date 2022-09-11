@@ -8,7 +8,7 @@ go get -u google.golang.org/grpc
 ```
 go install github.com/golang/protobuf/protoc-gen-go@v1.3
 ```
-- To generate code:
+- To generate service (server) and client side code:
 ```
 protoc -I ecommerce ecommerce/product_info.proto --go_out=plugins=grpc:ecommerce
 ```
