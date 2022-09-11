@@ -10,6 +10,7 @@ go install github.com/golang/protobuf/protoc-gen-go@v1.3
 ```
 - To generate service (server) and client side code:
 ```
+cd productinfo/service //or cd productinfo/client to create client side code
 protoc -I ecommerce ecommerce/product_info.proto --go_out=plugins=grpc:ecommerce
 ```
 
